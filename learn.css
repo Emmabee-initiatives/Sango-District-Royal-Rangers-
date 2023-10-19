@@ -92,7 +92,7 @@ nav .fa{
     font-size:40px;
 }
     li{
-        display: none;
+        display:block;
     }
     .nav-links{
         position:absolute;
@@ -103,7 +103,7 @@ nav .fa{
         right:0px;
         text-align:left;
         z-index:2;
-        display:none;
+        
     }
     nav .fa{
         display:block;
