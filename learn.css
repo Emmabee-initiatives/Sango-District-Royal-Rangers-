@@ -85,7 +85,7 @@ h1{
     cussor:pointer;
 }
 nav .fa{
-    display:block;
+    display:none;
 }
 @media(max-width:700px){
     h1{
@@ -100,7 +100,7 @@ nav .fa{
         width:200px;
         height:100vh;
         top:0;
-        right:-200px;
+        right:0px;
         text-align:left;
         z-index:2;
         
