@@ -6,7 +6,7 @@
 .header{
     min-height:100vh;
     width:100%;
-    background-image:url(medals.jpg);
+    background-color:blue;
     background-position:center;
     background-size:cover;
     position:relative;
@@ -34,7 +34,7 @@ nav{
     list-style:none;
     display:inline-block;
     padding:8px 12px;
-    position :relative;
+    position:relative;
 }
 a{
     color:gold;
@@ -91,7 +91,7 @@ nav .fa{
     font-size:40px;
 }
     li{
-        display: block;
+        display: none;
     }
     .nav-links{
         position:absolute;
@@ -102,6 +102,7 @@ nav .fa{
         right:400px;
         text-align:left;
         z-index:2;
+        display:none;
     }
     nav .fa{
         display:block;
