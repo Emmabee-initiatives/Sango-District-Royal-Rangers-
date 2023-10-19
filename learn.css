@@ -85,7 +85,7 @@ h1{
     cussor:pointer;
 }
 nav .fa{
-    display:none;
+    display:block;
 }
 @media(max-width:700px){
     h1{
