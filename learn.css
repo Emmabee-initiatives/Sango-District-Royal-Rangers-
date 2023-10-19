@@ -6,7 +6,7 @@
 .header{
     min-height:100vh;
     width:100%;
-    background-image:url(medals.jpg);
+    background-color:white;
     background-position:center;
     background-size:cover;
     position:relative;
@@ -23,6 +23,7 @@ nav{
 .log{
     height:50px;
     width:50px;
+    background:none;
 }
 
 .nav-links{
@@ -34,7 +35,7 @@ nav{
     list-style:none;
     display:inline-block;
     padding:8px 12px;
-    position :relative;
+    position:relative;
 }
 a{
     color:gold;
@@ -55,7 +56,7 @@ a{
 }
 .text-box{
     width:90%;
-    color:white;
+    color:blue;
     position:absolute;
     top: 60%;
     left:50%;
@@ -91,7 +92,7 @@ nav .fa{
     font-size:40px;
 }
     li{
-        display: block;
+        display: none;
     }
     .nav-links{
         position:absolute;
@@ -102,6 +103,7 @@ nav .fa{
         right:400px;
         text-align:left;
         z-index:2;
+        display:none;
     }
     nav .fa{
         display:block;
