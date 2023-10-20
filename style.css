@@ -103,7 +103,7 @@ h1{
         right:-200;
         text-align:left;
         z-index:2;
-        
+        display:none;
     }
      .menubar{
         display:block;
