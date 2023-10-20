@@ -84,7 +84,7 @@ h1{
     position:relative;
     cussor:pointer;
 }
-nav .fa{
+.menubar{
     display:none;
 }
 @media(max-width:700px){
@@ -105,7 +105,7 @@ nav .fa{
         z-index:2;
         
     }
-     .fa{
+     .menubar{
         display:block;
         color:gold;
         margin:10px;
