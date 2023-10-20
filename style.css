@@ -100,7 +100,7 @@ h1{
         width:200px;
         height:100vh;
         top:0;
-        right:0;
+        right:-200;
         text-align:left;
         z-index:2;
         
